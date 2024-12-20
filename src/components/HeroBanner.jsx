@@ -1,5 +1,4 @@
-import { Box, Button, Stack, Typography } from "@mui/material";
-import React from "react";
+import { Box, Button, Typography } from "@mui/material";
 
 const HeroBanner = () => {
   return (
@@ -35,7 +34,11 @@ const HeroBanner = () => {
             bgcolor: "lightgray",
           }}
         >
-          <img src="https://source.unsplash.com/650x600/?gym" alt="" style={{ width: "100%", height: "100%" }} />
+          <img
+            src="https://plus.unsplash.com/premium_photo-1670505062582-fdaa83c23c9e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Zml0bmVzc3xlbnwwfHwwfHx8MA%3D%3D"
+            alt=""
+            style={{ width: "100%", height: "100%", objectFit: "cover" }}
+          />
         </Box>
       </Box>
     </Box>
